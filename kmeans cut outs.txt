@@ -1,0 +1,40 @@
+kmeans cut outs
+
+voting
+
+
+# setup variables for counter
+# for item in val_list:
+#     item + 'counter' = []
+
+# for idx, val in enumerate(dfk):
+# #     'Iris-setosa', 'Iris-versicolor', 'Iris-virginica'
+#     if val == 'Iris-setosa':
+#         setosa_cnt  +=1
+#     elif val == 'Iris-versicolor':
+#         versicolor_cnt  +=1
+#     elif val == 'Iris-virginica':
+#         virginica_cnt +=1
+#     else:
+#         print("Unexpected Iris value: stopping")
+#         break
+
+# create a quick dictionary to sort
+# cnt_dict = {'setosa': setosa_cnt, 'versicolor': versicolor_cnt, 'virginica': virginica_cnt}
+# print(cnt_dict)
+
+# print(sorted(cnt_dict.values(), reverse = True))
+    
+#     dfk1 = dfk[dfk['i_class'] == val].count()
+#     print(dfk1)
+
+#groupby by class
+# dfvote = dfk.s_length.groupby(df.i_class).count().max() works
+# dfvote2 = pd.DateFrame({'count' : dfk.s_length.groupby(dfk.i_class).count()}).reset_index() doesn't work
+
+# DataFrame({'count' : df1.groupby( [ "Name", "City"] ).size()}).reset_index() example
+# print(dfvote,dfvote.idx.value)
+
+# # df[df.a > 1].sum()  
+# # idx_val = dfvote.index.tolist()
+# # dfvote
